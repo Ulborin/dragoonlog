@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+
+label {
+    margin-top: 20px;
+}
+
+input, select, textarea {
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: grey;
+}
